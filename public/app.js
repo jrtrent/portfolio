@@ -15,6 +15,7 @@ function typeEffect(element, speed) {
 
 
 $(document).ready(function() {
+  event.preventDefault();
   $('#portLinks').hide();
   $('#aboutMe').hide();
   $('#portLinks').hide();
